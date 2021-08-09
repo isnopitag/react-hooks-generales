@@ -13,7 +13,8 @@ import ReactDOM from "react-dom";
 // import { SimpleForm } from "./components/02-useEffect/SimpleForm";
 // import { MultipleCustomHooks } from "./components/03-examples/MultipleCustomHooks";
 // import { RealExampleRef } from "./components/04-useRef/RealExampleRef";
-import { TodoApp } from "./components/08-useReducer/TodoApp";
+// import { TodoApp } from "./components/08-useReducer/TodoApp";
+import { MainApp } from "./components/09-useContext/MainApp";
 
 ReactDOM.render(
   // <HookApp />,
@@ -28,7 +29,8 @@ ReactDOM.render(
   // <MemoHook/>,
   // <CallBackHook/>,
   // <Padre/>,
-  <TodoApp />,
+  // <TodoApp />,
+  <MainApp/>,
   document.getElementById("root")
 );
 
